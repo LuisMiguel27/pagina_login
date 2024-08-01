@@ -18,6 +18,11 @@ html, body{
     
 }
 
+.login{
+
+
+}
+
 .container{
 
     height: 100%;
@@ -45,12 +50,14 @@ html, body{
     flex-direction: column;
     width: 100%;
     min-width: 400px;
+    max-width: 600px;
     align-items: center;
     justify-content: center;
     gap: 9vh;
     border: solid 2px var(--third-color);
     border-radius: 5px;
-    height: 400px;
+    height: 100%;
+    max-height: 500px;
     color: var(--third-color);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
